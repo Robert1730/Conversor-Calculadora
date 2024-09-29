@@ -1,0 +1,78 @@
+* {
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+    text-align: center;
+  }
+
+a{
+  color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:#bf3232;
+ }
+
+b {
+  color:#bf3232;
+}
+
+#output {
+  display: none; 
+  background-color: #ffffff; 
+  border-radius: 5px; 
+  padding: 5px; 
+  color: rgb(0, 0, 0); 
+  width: 50%; 
+  font-weight: 500;
+  overflow-wrap: break-word;
+  min-height: 30px;
+}
+
+center {
+  background-color: rgb(36, 36, 36);
+  padding: 25px;
+  width: 60%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 0, 0, 0.596);
+  width: 60%;
+}
+
+nav ul{
+  display: flex;
+  gap: 100px;
+
+}
+
+nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+label {
+  color:#bf3232;
+}
+

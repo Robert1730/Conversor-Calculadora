@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/CalculadoraStyle.css"/>
+    <script src="../scripts/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../assets/icon/calculadora.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./Sobre.html">Sobre mim</a></li>
+            <li><a href="./Informações.html">Sobre as bases</a></li>
+            <li><a href="../Index.html">Conversor</a></li>
+            <li><a href="./Calculadora.html">Calculadora</a></li>
+            <li><a href="./Jogos.html">Minigames</a></li>
+        </ul>
+    </nav>
+    <center>
+
+    <h2>Calculadora Conversora:</h2> 
+    <br>
+
+    <h3>Insira o valor inicial e a base:</h3>
+
+    <input id="ipt_valor" type="text" placeholder="(Informe o valor)"> 
+    <select id="slt_primeiroValor"> 
+        <option value="#">Escolha:</option>
+        <option value="binario">Binário</option>
+        <option value="octal">Octal</option>
+        <option value="decimal">Decimal</option>
+        <option value="hexadecimal">Hexadecimal</option>
+    </select>
+
+
+    <br><br>
+
+    <h3>Insira o segundo valor desejado e sua base:</h3>
+    <input id="ipt_valor2" type="text" placeholder="(Informe o valor)"> 
+    <select id="slt_segundoValor"> 
+        <option value="#">Escolha:</option>
+        <option value="binario">Binário</option>
+        <option value="octal">Octal</option>
+        <option value="decimal">Decimal</option>
+        <option value="hexadecimal">Hexadecimal</option>
+    </select>
+
+    <br><br>
+    <h3>Escolha a operação desejada:</h3>
+    <br>
+
+    <select id="slt_operacao">
+        <option value="#">Escolha:</option>
+        <option value="somar">Somar</option>
+        <option value="subtrair">Subtrair</option>
+        <option value="multiplicar">Multiplicar</option>
+        <option value="dividir">Dividir</option>
+    </select>
+    <br><br>
+
+    <h3>Insira a base desejada para o resultado:</h3> 
+    <select id="slt_baseSaida"> 
+        <option value="#">Escolha:</option>
+        <option value="binario">Binário</option>
+        <option value="octal">Octal</option>
+        <option value="decimal">Decimal</option>
+        <option value="hexadecimal">Hexadecimal</option>
+    </select>
+
+    <br><br>
+
+    <button id="btn_calcular">Converter</button>
+
+    <div id="div_resultado"></div>
+
+    </center>
+    
+</html>
+
+<!-- <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Freepik - Flaticon</a> -->

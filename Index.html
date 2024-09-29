@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/IndexStyle.css"/>
+    <script src="./scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/icon/conversor.png" type="image/x-icon">
+    <title>Conversor</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="./html/Sobre.html">Sobre mim</a></li>
+            <li><a href="./html/Informações.html">Sobre as bases</a></li>
+            <li><a href="./Index.html">Conversor</a></li>
+            <li><a href="./html/Calculadora.html">Calculadora</a></li>
+            <li><a href="./html/Jogos.html">Minigames</a></li>
+        </ul>
+    </nav>
+
+    <center> 
+        <h1>Robert's Converter</h1>
+
+        <br><br> 
+
+        <h2>Conversor:</h2> 
+        <br>
+
+        <h3>Insira o valor inicial e a base:</h3>
+
+        <input id="ipt_valor" type="text" placeholder="(Informe o valor)"> 
+        <select id="slt_basePC"> 
+            <!-- PC = Para converter -->
+            <option value="#">Escolha:</option>
+            <option value="binario">Binário</option>
+            <option value="octal">Octal</option>
+            <option value="decimal">Decimal</option>
+            <option value="hexadecimal">Hexadecimal</option>
+        </select>
+
+
+        <br><br>
+
+        <h3>Converter para:</h3> 
+        
+        <br>
+
+        <input type="checkbox" id="convertBinario"><label for="convertBinario">Binário</label>
+        <input type="checkbox" id="convertOctal"><label for="convertOctal">Octal</label>
+        <input type="checkbox" id="convertDecimal"><label for="convertDecimal">Decimal</label>
+        <input type="checkbox" id="convertHexadecimal"><label for="convertHexadecimal">Hexadecimal</label>
+        <input type="checkbox" id="convertTodos"><label for="convertTodos">Todas</label>
+        <br><br>
+
+        <br><br>
+
+        <button onclick="converter()">Converter</button>
+
+        <div id="output"></div>
+    </center>
+
+</body>
+</html>
+<!-- <a href="https://www.flaticon.com/br/icones-gratis/converter" title="converter ícones">Converter ícones criados por Kalashnyk - Flaticon</a>
+ -->
+<!-- Algumas funções e planos para o site ainda estão em produção, por exemplo a página de Sobre bases e Minigames que planejo atualizar posteriormente no Github -->

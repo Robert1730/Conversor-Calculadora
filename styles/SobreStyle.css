@@ -1,0 +1,106 @@
+* {
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.596);
+    width: 60%;
+  }
+  
+  nav ul{
+    display: flex;
+    gap: 100px;
+  
+  }
+  
+  nav ul li {
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  main {
+    background-color: rgb(36, 36, 36);
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px
+  }
+  
+  div.divisão {
+    width: 100vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column
+  }
+  
+  div.duas-colunas {
+    display: flex;
+    gap: 5%;
+    margin-bottom: 15%
+  }
+  
+  .tabela {
+    margin: 5px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  div.Botão-do-fim-do-mundo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  button {
+    background-color: red;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    align-items: center;
+  }
+  
+  
