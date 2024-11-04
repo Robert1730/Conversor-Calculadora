@@ -11,7 +11,7 @@ Corrigir alguns bugs relacionados ao Sweet alert.
 <br>
 Melhorar a otimização dos arquivos;
 <br>
-Melhorar a nomeclatura dos arquivos;
+Melhorar a nomenclatura dos arquivos;
 <br>
 Criação dos jogos educacionais;
 <br>
